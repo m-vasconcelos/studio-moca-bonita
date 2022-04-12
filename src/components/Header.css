@@ -1,0 +1,68 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "NovaRound";
+}
+
+.header img {
+    margin-top: -100px;
+    width: 400px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;    
+}
+
+.header nav {
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+.header nav a{
+    padding: 0 30px;
+    font-size: 1.1em;
+}
+
+.iconsHeader {
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+
+.iconsHeader a {
+    padding: 15px;
+    font-size: 1.7em;
+}
+
+.iconsHeader a:nth-child(1) {
+    color: green;
+}
+
+.iconsHeader a:nth-child(2) {
+    color: #C13584;
+}
+
+@media (min-width: 771px)  {
+    .header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .header img {
+        margin-top: 0px;
+        width: 200px;
+    }
+
+    .header nav {
+        margin-top: 45px;
+    }
+
+    .iconsHeader {
+        margin-top: 45px;
+    }
+
+    .iconsHeader a {
+        padding: 8px;
+    }
+}

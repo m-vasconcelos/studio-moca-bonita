@@ -1,0 +1,54 @@
+.presentation {
+    background: url(../img/bg-presentation.png) no-repeat;
+    background-position: 0px 20%;
+    background-size: 100%;
+}
+
+.presentation h1 {
+    color: #fff;
+    font-family: "Acme";
+    margin: 0 0 0 30px;
+    font-size: 3em;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.presentation h1:nth-child(1) {
+    padding-top: 150px;
+}
+
+.presentation p {
+    color: #FF00F5;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: "NovaRound";
+}
+
+.presentation button {
+    margin: 100px 0 150px 30px;
+    padding: 10px 20px 14px 23px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF00F5;
+    font-size: 1.2em;
+    font-family: "NovaRound";
+    transition: .5s;
+}
+
+.presentation button:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.iconPresentation {
+    font-size: 1.5em;
+    position: relative;
+    top: 3px;
+    margin-right: 3px ;
+}
+
+@media (min-width: 1090px)  {
+    .presentation h1 {
+        font-size: 4em;
+    }    
+}
